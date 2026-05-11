@@ -1,0 +1,7 @@
+# patches.txt — migration patch execution order
+# Format: {{app_name}}.patches.v0_0.<patch_name>
+# Each patch runs ONCE per site during bench migrate.
+# NEVER reorder or delete entries — only append.
+#
+# Example:
+# {{app_name}}.patches.v0_1.rename_field_old_to_new
